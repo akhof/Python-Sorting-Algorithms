@@ -4,7 +4,7 @@ from PySortAlgos import BadAlgorithm, BubbleSort, SelectionSort, InsertSort, Qui
 import time, random
 
 START_E = 2  # 2^2 = 4
-MAX_E = 22  # 2^25 = 4.194.304
+MAX_E = 22  # 2^22 = 4.194.304
 TRIES = 1
 
 TOTEST = (
