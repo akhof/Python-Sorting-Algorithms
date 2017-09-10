@@ -2,8 +2,10 @@
 In this project I implemented a few sorting algorithms in Python.
 I also created a little comparison script to compare all these algorithm - you can find it's output bellow.
 
+More details in my blog article (in german): https://arnehannappel.de/blog/28-sortieralgorithmen
+
 ## Algorithms
-I implemented this algorithms: BadAlgorithm, BuubleSort, SelectionSort, InsertionSort, QuickSort, MergeSort and HeapSort
+I implemented this algorithms: BadAlgorithm, BubbleSort, SelectionSort, InsertionSort, QuickSort, MergeSort and HeapSort
 
 ## Comparison script output
 ```
@@ -26,7 +28,7 @@ Elements          BadAlgorithm          BubbleSort          SelectionSort       
 2^17 = 131072                                                                                          3.71869s (100.0%)    2.35081s (63.22%)  1.73522s (46.66%)        
 2^18 = 262144                                                                                          7.75541s (100.0%)    5.23734s (67.53%)  3.83925s (49.5%)        
 2^19 = 524288                                                                                          17.55785s (100.0%)   11.3894s (64.87%)  8.33732s (47.48%)        
-2^20 = 1048576                                                                                         24.91203s (100.0%)   17.57118s (70.53%)        
-2^21 = 2097152                                                                                         53.311s (100.0%)     35.57808s (66.74%)        
-2^22 = 4194304                                                                                         116.41198s (100.0%)  81.92689s (70.38%)        
+2^20 = 1048576                                                                                                              24.91203s (100.0%)   17.57118s (70.53%)        
+2^21 = 2097152                                                                                                              53.311s (100.0%)     35.57808s (66.74%)        
+2^22 = 4194304                                                                                                              116.41198s (100.0%)  81.92689s (70.38%)        
 ```
